@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.offer {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.offer-containers {
+  background-color: #f2f2f3;
+}
+.offer-containers-2 {
+  background-color: #f9f9f9;
+  padding: 1em 0 1em 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -1px 0 2px rgba(0, 0, 0, 0.2);
+}
+.offer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  font-size: 1.5em;
+  color: #4d4d4d;
+}
+.offer-name {
+  padding: 0.5em;
+}
+.offer-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background-color: #000;
+  color: #ddd;
+}
+.offer-price-main {
+  background-color: rgb(239, 43, 43);
+}
+.offer-parameters-content {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+.offer-parameters-content-1 {
+  color: #444;
+}
+.offer-parameters-content-2 {
+  color: #000;
+  font-weight: 550;
+}
+.offer-parameters-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 0;
+  width: 85%;
+  border: 1px solid #d8d8d8;
+}
+.offer-parameters-footer {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.offer-parameters-footer-year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 4px;
+  padding-left: 0.8rem;
+  font-size: 0.8em;
+  color: #9f9f9f;
+  margin-right: 1rem;
+}
+.offer-parameters-footer-year-main {
+  padding-left: 1em;
+  font-size: 1em;
+  color: #444;
+}
+.offer-parameters-footer-year-price-main {
+  color: #000;
+  font-weight: 550;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 0.5em;
+}
+
+.btn {
+  width: 90%;
+  height: 35px;
+  background-color: rgb(138, 1, 1);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.btn-vip {
+  background-color: rgb(239, 43, 43);
+}
+
+.icon {
+  color: green;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(86, 86, 236);
+}
+
+b {
+  font-size: 1.5em;
+  color: #fff;
+}
